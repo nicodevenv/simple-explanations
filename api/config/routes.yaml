@@ -1,0 +1,17 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+    path: /
+    controller: App\Controller\DefaultController::healthAction
+
+register:
+    path: /register
+    controller: App\Controller\UserController::registerAction
+    methods: ['POST']
+
+login:
+    path: /login
+    controller: App\Controller\UserController::loginAction
+    methods: ['POST']
