@@ -34,7 +34,7 @@ Entities will be created into `src/Entity` and have their own repository in `src
 
 Services are splitted into multiple states such as Service, Provider, Persister
 
-Service : Contains every actions that is specific to the action and can also use provider and persister
+Service : Contains every specific actions and can also use provider and persister
 
 Provider : Only retrieve data from database (SELECT)
 
